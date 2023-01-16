@@ -7,32 +7,30 @@
     <title>Momentum App</title>
   </head>
   <body>
-    <div class="info">
-      <h2 id="clock">00:00</h2>
-      <form class="hidden" id="login-form">
-        <input
-          required
-          maxlength="15"
-          type="text"
-          placeholder="What is your name?"
-        />
-        <input type="submit" value="Log In" />
-      </form>
-      <h1 id="greeting" class="hidden"></h1>
-      <form action="" id="todo-form">
-        <input
-          type="text"
-          placeholder="Wirte a To Do and Press Enter"
-          required
-        />
-      </form>
-      <div class="quote">
-        <span></span>
-        <span></span>
+    <div class="box">
+      <div class="info">
+        <h2 id="clock">00:00</h2>
+        <form class="hidden" id="login-form">
+          <input
+            required
+            maxlength="15"
+            type="text"
+            placeholder="What is your name?"
+          />
+          <input type="submit" value="Log In" />
+        </form>
+        <h1 id="greeting" class="hidden"></h1>
       </div>
     </div>
-    <ul id="todo-list"></ul>
+    <form action="" id="todo-form">
+      <input type="text" placeholder="Wirte a To Do and Press Enter" required />
+    </form>
+    <div class="quote">
+      <span></span>
+      <span></span>
+    </div>
 
+    <ul id="todo-list"></ul>
     <div id="weather">
       <span></span>
       <span></span>

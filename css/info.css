@@ -1,15 +1,14 @@
-body{
-    height: 100vh;
+.box{
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: .7;
 }
 
 
 .info{
     position: relative;
-    top: -30px;
-    opacity: .7;
 }
 
 #clock{
