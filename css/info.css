@@ -1,12 +1,38 @@
-.box{
-    height: 100vh;
+body{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.box0{
+    width: 800px;
+    align-items: center;
+}
+
+
+.box{
+    position: relative;
+    width: 400px;
+    height: 100%;
+    right: -200px;
+
+}
+
+.todo-box{
+    justify-content: center;
+}
+
+#todo-form>input{
+    width: 350px;
+    right: -20px;
+}
+
+#todo-list{
+    font-weight: 500;
+}
 
 .info{
+
     position: relative;
     top: -30px;
     opacity: .7;
@@ -25,4 +51,37 @@
     font-size: 70px;
 
     font-weight: 600;
+}
+
+.wide-box{
+    width: 800px;
+}
+
+.quote{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 700px;
+    background-color: white;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    position: relative;
+    right: 130px;
+    bottom: -80px;
+    opacity: .5;
+}
+
+.quote>div>span{
+    display: block;
+
+}
+
+#weather{
+    background-color: white;
+    height: 30px;
+    width: 160px;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
