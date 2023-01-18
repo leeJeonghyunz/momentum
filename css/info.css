@@ -35,7 +35,10 @@ body{
     font-weight: 500;
     height: 100px;
     width: 400px;
-
+    font-weight: 600;
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: red;
 }
 
 .info{
