@@ -22,13 +22,20 @@ body{
     justify-content: center;
 }
 
+
 #todo-form>input{
     width: 350px;
     right: -20px;
 }
 
 #todo-list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     font-weight: 500;
+    height: 100px;
+    width: 400px;
+
 }
 
 .info{
@@ -48,13 +55,16 @@ body{
 #greeting{
     display: flex;
     justify-content: center;
-    font-size: 70px;
+    font-size: 50px;
 
     font-weight: 600;
 }
 
 .wide-box{
     width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .quote{
