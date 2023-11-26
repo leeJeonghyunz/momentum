@@ -26,6 +26,7 @@
   font-weight: 600;
 }
 
+<<<<<<< HEAD
 #todo-list li {
   display: flex;
   justify-content: space-between;
@@ -34,6 +35,15 @@
 
 #todo-list li span {
   width: 350px;
+=======
+#todo-form>input{
+    width: 350px;
+    right: -20px;
+}
+
+#todo-list{
+    font-weight: 500;
+>>>>>>> parent of 7690b0b (Update info.css)
 }
 
 .wide-box {
@@ -58,6 +68,7 @@
   opacity: 0.5;
 }
 
+<<<<<<< HEAD
 .quote > div > span {
   display: block;
 }
@@ -69,4 +80,16 @@
   position: absolute;
   right: 0;
   top: 0;
+=======
+#greeting{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+
+    font-weight: 600;
+}
+
+.wide-box{
+    width: 800px;
+>>>>>>> parent of 7690b0b (Update info.css)
 }
