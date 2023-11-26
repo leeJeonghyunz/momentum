@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .box {
   height: 100vh;
   display: flex;
@@ -9,6 +10,56 @@
   position: relative;
   top: -30px;
   opacity: 0.7;
+=======
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box0{
+    width: 800px;
+    align-items: center;
+}
+
+
+.box{
+    position: relative;
+    width: 400px;
+    height: 100%;
+    right: -200px;
+
+}
+
+.todo-box{
+    justify-content: center;
+}
+
+
+#todo-form>input{
+    width: 350px;
+    right: -20px;
+}
+
+#todo-list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-weight: 500;
+    height: 100px;
+    width: 400px;
+    font-weight: 600;
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: red;
+}
+
+.info{
+
+    position: relative;
+    top: -30px;
+    opacity: .7;
+>>>>>>> exersize
 }
 
 #clock {
@@ -18,10 +69,17 @@
   font-size: 100px;
 }
 
+<<<<<<< HEAD
 #greeting {
   display: flex;
   justify-content: center;
   font-size: 70px;
+=======
+#greeting{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+>>>>>>> exersize
 
   font-weight: 600;
 }
@@ -36,4 +94,40 @@
 #todo-list li span {
   border: 1px solid blue;
   width: 350px;
+}
+
+.wide-box{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.quote{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 700px;
+    background-color: white;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    position: relative;
+    right: 130px;
+    bottom: -80px;
+    opacity: .5;
+}
+
+.quote>div>span{
+    display: block;
+
+}
+
+#weather{
+    background-color: white;
+    height: 30px;
+    width: 160px;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
